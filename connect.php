@@ -1,5 +1,4 @@
 <?php
-  /*Spojení s mysql databází*/
 	$spojeni=mysqli_connect("localhost", "root", "", "hanc");
   mysqli_query($spojeni, "SET CHARACTER SET 'utf8'");
   
